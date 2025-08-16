@@ -7,13 +7,15 @@
 </head>
 <body>
   <h1>📘 Your Collection</h1>
-  <a href="index.html"><button>🏠 Home</button></a>
-  <a href="summon.html"><button>🔮 Summon</button></a>
   <div id="gallery" class="pulls"></div>
+  <div class="nav-bar">
+    <a href="index.html"><img src="assets/ui/summon.png" alt="Home" title="Home" /></a>
+    <a href="summon.html"><img src="assets/ui/summon.png" alt="Summon" title="Summon" /></a>
+  </div>
   <script>
-    const collection = JSON.parse(localStorage.getItem("collection") || "{{}}");
+    const collection = JSON.parse(localStorage.getItem("collection") || "{}");
     const gallery = document.getElementById("gallery");
-    Object.values(collection).slice(0, 50).forEach((char) => {{
+    Object.values(collection).slice(0, 50).forEach((char) => {
       const item = document.createElement("div");
       item.classList.add("card");
 
@@ -26,14 +28,14 @@
       name.style.color = char.color;
 
       const rarity = document.createElement("p");
-      rarity.textContent = `Rarity: ${{char.rarity}}`;
+      rarity.textContent = `Rarity: ${char.rarity}`;
       rarity.style.color = char.color;
 
       item.appendChild(img);
       item.appendChild(name);
       item.appendChild(rarity);
       gallery.appendChild(item);
-    }});
+    });
   </script>
 </body>
 </html>
