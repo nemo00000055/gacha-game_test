@@ -61,8 +61,8 @@ const characters = [
     "image": "assets/characters/ravshade.png"
   }
 ];
-let gems = 1000;
-let collection = {};
+let gems = 100000;
+let collection = JSON.parse(localStorage.getItem('collection') || '{}');
 
 function updateGemsDisplay() {
   document.getElementById("gems").textContent = `💎 Gems: ${gems}`;
@@ -167,3 +167,5 @@ document.getElementById("pullOne").addEventListener("click", () => pullCharacter
 document.getElementById("pullTen").addEventListener("click", () => pullCharacters(10));
 updateGemsDisplay();
 updateGallery();
+
+window.addEventListener('beforeunload', () => localStorage.setItem('collection', JSON.stringify(collection)));

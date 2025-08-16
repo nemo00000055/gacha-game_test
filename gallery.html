@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📘 Your Collection</h1>
+  <a href="index.html"><button>🏠 Home</button></a>
+  <a href="summon.html"><button>🔮 Summon</button></a>
+  <div id="gallery" class="pulls"></div>
+  <script>
+    const collection = JSON.parse(localStorage.getItem("collection") || "{{}}");
+    const gallery = document.getElementById("gallery");
+    Object.values(collection).slice(0, 50).forEach((char) => {{
+      const item = document.createElement("div");
+      item.classList.add("card");
+
+      const img = document.createElement("img");
+      img.src = char.image;
+      img.style.borderColor = char.color;
+
+      const name = document.createElement("h3");
+      name.textContent = char.name;
+      name.style.color = char.color;
+
+      const rarity = document.createElement("p");
+      rarity.textContent = `Rarity: ${{char.rarity}}`;
+      rarity.style.color = char.color;
+
+      item.appendChild(img);
+      item.appendChild(name);
+      item.appendChild(rarity);
+      gallery.appendChild(item);
+    }});
+  </script>
+</body>
+</html>
