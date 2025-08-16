@@ -1,303 +1,303 @@
 const characters = [
   {
-    "name": "Aetherclaw",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/aetherclaw.png"
-  },
-  {
-    "name": "Aethergaze",
+    "name": "Drenwyn",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/aethergaze.png"
+    "image": "assets/characters/drenwyn.png"
   },
   {
-    "name": "Aetherheart",
+    "name": "Aethshade",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/aetherheart.png"
+    "image": "assets/characters/aethshade.png"
   },
   {
-    "name": "Aetherveil",
+    "name": "Skelveil",
+    "rarity": "Rare",
+    "color": "#4a90e2",
+    "image": "assets/characters/skelveil.png"
+  },
+  {
+    "name": "Ravwyn",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/aetherveil.png"
+    "image": "assets/characters/ravwyn.png"
   },
   {
-    "name": "Blazeshade",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/blazeshade.png"
+    "name": "Thalsoul",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/thalsoul.png"
   },
   {
-    "name": "Blazesong",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/blazesong.png"
-  },
-  {
-    "name": "Blazeveil",
+    "name": "Velgaze",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/blazeveil.png"
+    "image": "assets/characters/velgaze.png"
   },
   {
-    "name": "Drakeblade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/drakeblade.png"
-  },
-  {
-    "name": "Elarablade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/elarablade.png"
-  },
-  {
-    "name": "Elarasong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/elarasong.png"
-  },
-  {
-    "name": "Kairogaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/kairogaze.png"
-  },
-  {
-    "name": "Kairoheart",
+    "name": "Drenthorn",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/kairoheart.png"
+    "image": "assets/characters/drenthorn.png"
   },
   {
-    "name": "Kairoveil",
+    "name": "Myrathorn",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/kairoveil.png"
+    "image": "assets/characters/myrathorn.png"
   },
   {
-    "name": "Luxabloom",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/luxabloom.png"
-  },
-  {
-    "name": "Luxagaze",
+    "name": "Drenflare",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/luxagaze.png"
+    "image": "assets/characters/drenflare.png"
   },
   {
-    "name": "Luxaveil",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/luxaveil.png"
-  },
-  {
-    "name": "Mirabloom",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/mirabloom.png"
-  },
-  {
-    "name": "Miraclaw",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/miraclaw.png"
-  },
-  {
-    "name": "Miragaze",
+    "name": "Myradrake",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/miragaze.png"
+    "image": "assets/characters/myradrake.png"
   },
   {
-    "name": "Mirashade",
+    "name": "Eiraflare",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/mirashade.png"
+    "image": "assets/characters/eiraflare.png"
   },
   {
-    "name": "Mirasong",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/mirasong.png"
+    "name": "Eiraveil",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/eiraveil.png"
   },
   {
-    "name": "Miraveil",
+    "name": "Aethveil",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/aethveil.png"
+  },
+  {
+    "name": "Myrasong",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/myrasong.png"
+  },
+  {
+    "name": "Ravgaze",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/ravgaze.png"
+  },
+  {
+    "name": "Skelflare",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/miraveil.png"
+    "image": "assets/characters/skelflare.png"
   },
   {
-    "name": "Nocturnebloom",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/nocturnebloom.png"
-  },
-  {
-    "name": "Nocturnelight",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/nocturnelight.png"
-  },
-  {
-    "name": "Nocturneveil",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/nocturneveil.png"
-  },
-  {
-    "name": "Nyxgaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/nyxgaze.png"
-  },
-  {
-    "name": "Nyxheart",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/nyxheart.png"
-  },
-  {
-    "name": "Nyxveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/nyxveil.png"
-  },
-  {
-    "name": "Oblivionblade",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/oblivionblade.png"
-  },
-  {
-    "name": "Oblivionbloom",
+    "name": "Thalsong",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/oblivionbloom.png"
+    "image": "assets/characters/thalsong.png"
   },
   {
-    "name": "Obliviongaze",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/obliviongaze.png"
-  },
-  {
-    "name": "Oblivionsong",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/oblivionsong.png"
-  },
-  {
-    "name": "Rivenbloom",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/rivenbloom.png"
-  },
-  {
-    "name": "Rivenheart",
+    "name": "Eirashade",
     "rarity": "Legendary",
     "color": "#f1c40f",
-    "image": "assets/characters/rivenheart.png"
+    "image": "assets/characters/eirashade.png"
   },
   {
-    "name": "Rivenshade",
+    "name": "Kaelshade",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/rivenshade.png"
+    "image": "assets/characters/kaelshade.png"
   },
   {
-    "name": "Thornegaze",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/thornegaze.png"
+    "name": "Thalveil",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/thalveil.png"
   },
   {
-    "name": "Thornelight",
+    "name": "Veldrake",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/veldrake.png"
+  },
+  {
+    "name": "Zorflare",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/thornelight.png"
+    "image": "assets/characters/zorflare.png"
   },
   {
-    "name": "Valenblade",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/valenblade.png"
+    "name": "Eirasong",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/eirasong.png"
   },
   {
-    "name": "Valenclaw",
+    "name": "Aethsong",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/aethsong.png"
+  },
+  {
+    "name": "Drenshade",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/drenshade.png"
+  },
+  {
+    "name": "Aethflare",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/aethflare.png"
+  },
+  {
+    "name": "Kaelgaze",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/kaelgaze.png"
+  },
+  {
+    "name": "Ravveil",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/ravveil.png"
+  },
+  {
+    "name": "Ravshade",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/valenclaw.png"
+    "image": "assets/characters/ravshade.png"
   },
   {
-    "name": "Valenlight",
+    "name": "Skelwyn",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/skelwyn.png"
+  },
+  {
+    "name": "Thallance",
+    "rarity": "Epic",
+    "color": "#9b59b6",
+    "image": "assets/characters/thallance.png"
+  },
+  {
+    "name": "Ravthorn",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/valenlight.png"
+    "image": "assets/characters/ravthorn.png"
   },
   {
-    "name": "Valenshade",
+    "name": "Skellance",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/skellance.png"
+  },
+  {
+    "name": "Eirathorn",
+    "rarity": "Mythic",
+    "color": "#e74c3c",
+    "image": "assets/characters/eirathorn.png"
+  },
+  {
+    "name": "Zorlance",
+    "rarity": "Epic",
+    "color": "#9b59b6",
+    "image": "assets/characters/zorlance.png"
+  },
+  {
+    "name": "Aethwyn",
+    "rarity": "Legendary",
+    "color": "#f1c40f",
+    "image": "assets/characters/aethwyn.png"
+  },
+  {
+    "name": "Kaelwyn",
+    "rarity": "Epic",
+    "color": "#9b59b6",
+    "image": "assets/characters/kaelwyn.png"
+  },
+  {
+    "name": "Skelshade",
+    "rarity": "Epic",
+    "color": "#9b59b6",
+    "image": "assets/characters/skelshade.png"
+  },
+  {
+    "name": "Zorsoul",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/zorsoul.png"
+  },
+  {
+    "name": "Zorsong",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/zorsong.png"
+  },
+  {
+    "name": "Thalgaze",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/thalgaze.png"
+  },
+  {
+    "name": "Ravdrake",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/ravdrake.png"
+  },
+  {
+    "name": "Velwyn",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/velwyn.png"
+  },
+  {
+    "name": "Drensoul",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/drensoul.png"
+  },
+  {
+    "name": "Ravsoul",
+    "rarity": "Legendary",
+    "color": "#f1c40f",
+    "image": "assets/characters/ravsoul.png"
+  },
+  {
+    "name": "Zorwyn",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/zorwyn.png"
+  },
+  {
+    "name": "Myrashade",
     "rarity": "Rare",
     "color": "#4a90e2",
-    "image": "assets/characters/valenshade.png"
+    "image": "assets/characters/myrashade.png"
   },
   {
-    "name": "Valensong",
+    "name": "Skelsong",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/valensong.png"
+    "image": "assets/characters/skelsong.png"
   },
   {
-    "name": "Valenstrike",
+    "name": "Zorthorn",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/valenstrike.png"
+    "image": "assets/characters/zorthorn.png"
   },
   {
-    "name": "Valenveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/valenveil.png"
-  },
-  {
-    "name": "Vexblade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/vexblade.png"
-  },
-  {
-    "name": "Vexgaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/vexgaze.png"
-  },
-  {
-    "name": "Vexshade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/vexshade.png"
-  },
-  {
-    "name": "Vexstrike",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/vexstrike.png"
-  },
-  {
-    "name": "Vexveil",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/vexveil.png"
-  },
-  {
-    "name": "Zarastrike",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/zarastrike.png"
+    "name": "Kaellance",
+    "rarity": "Epic",
+    "color": "#9b59b6",
+    "image": "assets/characters/kaellance.png"
   }
 ];
 
@@ -309,8 +309,8 @@ function weightedRandomPick() {
     "Legendary": 3,
     "Mythic": 1
   };
-
   const pool = [];
+
   characters.forEach(char => {
     const weight = weights[char.rarity] || 1;
     for (let i = 0; i < weight; i++) {
@@ -334,12 +334,12 @@ function pullCharacters(amount = 1) {
 
   for (let i = 0; i < amount; i++) {
     const char = weightedRandomPick();
-
     const card = document.createElement('div');
     card.classList.add('card');
 
     const img = document.createElement('img');
     img.src = char.image;
+    img.style.borderColor = char.color;
 
     const name = document.createElement('h3');
     name.textContent = char.name;
