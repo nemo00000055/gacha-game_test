@@ -1,45 +1,16 @@
+
 const characters = [
   {
-    "name": "Drenwyn",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/drenwyn.png"
-  },
-  {
-    "name": "Aethshade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/aethshade.png"
-  },
-  {
-    "name": "Skelveil",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/skelveil.png"
-  },
-  {
-    "name": "Ravwyn",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/ravwyn.png"
-  },
-  {
-    "name": "Thalsoul",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/thalsoul.png"
-  },
-  {
-    "name": "Velgaze",
+    "name": "Eiraveil",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/velgaze.png"
+    "image": "assets/characters/eiraveil.png"
   },
   {
-    "name": "Drenthorn",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/drenthorn.png"
+    "name": "Myragaze",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/myragaze.png"
   },
   {
     "name": "Myrathorn",
@@ -48,258 +19,80 @@ const characters = [
     "image": "assets/characters/myrathorn.png"
   },
   {
-    "name": "Drenflare",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/drenflare.png"
-  },
-  {
-    "name": "Myradrake",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/myradrake.png"
-  },
-  {
-    "name": "Eiraflare",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/eiraflare.png"
-  },
-  {
-    "name": "Eiraveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/eiraveil.png"
-  },
-  {
-    "name": "Aethveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/aethveil.png"
-  },
-  {
-    "name": "Myrasong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/myrasong.png"
-  },
-  {
-    "name": "Ravgaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/ravgaze.png"
-  },
-  {
-    "name": "Skelflare",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/skelflare.png"
-  },
-  {
-    "name": "Thalsong",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/thalsong.png"
-  },
-  {
-    "name": "Eirashade",
-    "rarity": "Legendary",
-    "color": "#f1c40f",
-    "image": "assets/characters/eirashade.png"
-  },
-  {
-    "name": "Kaelshade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/kaelshade.png"
-  },
-  {
-    "name": "Thalveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/thalveil.png"
-  },
-  {
-    "name": "Veldrake",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/veldrake.png"
-  },
-  {
-    "name": "Zorflare",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/zorflare.png"
-  },
-  {
-    "name": "Eirasong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/eirasong.png"
-  },
-  {
-    "name": "Aethsong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/aethsong.png"
-  },
-  {
-    "name": "Drenshade",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/drenshade.png"
-  },
-  {
-    "name": "Aethflare",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/aethflare.png"
-  },
-  {
-    "name": "Kaelgaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/kaelgaze.png"
-  },
-  {
-    "name": "Ravveil",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/ravveil.png"
-  },
-  {
-    "name": "Ravshade",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/ravshade.png"
-  },
-  {
-    "name": "Skelwyn",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/skelwyn.png"
-  },
-  {
-    "name": "Thallance",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/thallance.png"
-  },
-  {
-    "name": "Ravthorn",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/ravthorn.png"
-  },
-  {
-    "name": "Skellance",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/skellance.png"
-  },
-  {
-    "name": "Eirathorn",
-    "rarity": "Mythic",
-    "color": "#e74c3c",
-    "image": "assets/characters/eirathorn.png"
-  },
-  {
-    "name": "Zorlance",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/zorlance.png"
-  },
-  {
-    "name": "Aethwyn",
-    "rarity": "Legendary",
-    "color": "#f1c40f",
-    "image": "assets/characters/aethwyn.png"
-  },
-  {
-    "name": "Kaelwyn",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/kaelwyn.png"
-  },
-  {
-    "name": "Skelshade",
-    "rarity": "Epic",
-    "color": "#9b59b6",
-    "image": "assets/characters/skelshade.png"
-  },
-  {
-    "name": "Zorsoul",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/zorsoul.png"
-  },
-  {
-    "name": "Zorsong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/zorsong.png"
-  },
-  {
-    "name": "Thalgaze",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/thalgaze.png"
-  },
-  {
-    "name": "Ravdrake",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/ravdrake.png"
-  },
-  {
-    "name": "Velwyn",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/velwyn.png"
-  },
-  {
-    "name": "Drensoul",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/drensoul.png"
-  },
-  {
-    "name": "Ravsoul",
-    "rarity": "Legendary",
-    "color": "#f1c40f",
-    "image": "assets/characters/ravsoul.png"
-  },
-  {
-    "name": "Zorwyn",
-    "rarity": "Common",
-    "color": "#b0b0b0",
-    "image": "assets/characters/zorwyn.png"
-  },
-  {
-    "name": "Myrashade",
-    "rarity": "Rare",
-    "color": "#4a90e2",
-    "image": "assets/characters/myrashade.png"
-  },
-  {
     "name": "Skelsong",
-    "rarity": "Common",
-    "color": "#b0b0b0",
+    "rarity": "Epic",
+    "color": "#9b59b6",
     "image": "assets/characters/skelsong.png"
   },
   {
-    "name": "Zorthorn",
+    "name": "Kaellance",
     "rarity": "Common",
     "color": "#b0b0b0",
-    "image": "assets/characters/zorthorn.png"
+    "image": "assets/characters/kaellance.png"
   },
   {
-    "name": "Kaellance",
+    "name": "Kaelthorn",
     "rarity": "Epic",
     "color": "#9b59b6",
-    "image": "assets/characters/kaellance.png"
+    "image": "assets/characters/kaelthorn.png"
+  },
+  {
+    "name": "Skelsoul",
+    "rarity": "Rare",
+    "color": "#4a90e2",
+    "image": "assets/characters/skelsoul.png"
+  },
+  {
+    "name": "Ravsong",
+    "rarity": "Rare",
+    "color": "#4a90e2",
+    "image": "assets/characters/ravsong.png"
+  },
+  {
+    "name": "Thalthorn",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/thalthorn.png"
+  },
+  {
+    "name": "Ravshade",
+    "rarity": "Common",
+    "color": "#b0b0b0",
+    "image": "assets/characters/ravshade.png"
   }
 ];
+let gems = 1000;
+let collection = {};
+
+function updateGemsDisplay() {
+  document.getElementById("gems").textContent = `💎 Gems: ${gems}`;
+}
+
+function updateGallery() {
+  const gallery = document.getElementById("gallery");
+  gallery.innerHTML = "";
+  Object.values(collection).forEach((char) => {
+    const item = document.createElement("div");
+    item.classList.add("card");
+
+    const img = document.createElement("img");
+    img.src = char.image;
+    img.style.borderColor = char.color;
+
+    const name = document.createElement("h3");
+    name.textContent = char.name;
+    name.style.color = char.color;
+
+    const rarity = document.createElement("p");
+    rarity.textContent = `Rarity: ${char.rarity}`;
+    rarity.style.color = char.color;
+
+    item.appendChild(img);
+    item.appendChild(name);
+    item.appendChild(rarity);
+    gallery.appendChild(item);
+  });
+}
 
 function weightedRandomPick() {
   const weights = {
@@ -311,7 +104,7 @@ function weightedRandomPick() {
   };
   const pool = [];
 
-  characters.forEach(char => {
+  characters.forEach((char) => {
     const weight = weights[char.rarity] || 1;
     for (let i = 0; i < weight; i++) {
       pool.push(char);
@@ -323,10 +116,18 @@ function weightedRandomPick() {
 }
 
 function pullCharacters(amount = 1) {
-  const container = document.getElementById('result');
-  container.innerHTML = '';
+  const cost = amount === 10 ? 900 : 100;
+  if (gems < cost) {
+    alert("Not enough gems!");
+    return;
+  }
+  gems -= cost;
+  updateGemsDisplay();
 
-  const audio = document.getElementById('sfx');
+  const container = document.getElementById("result");
+  container.innerHTML = "";
+
+  const audio = document.getElementById("sfx");
   if (audio) {
     audio.currentTime = 0;
     audio.play();
@@ -334,18 +135,22 @@ function pullCharacters(amount = 1) {
 
   for (let i = 0; i < amount; i++) {
     const char = weightedRandomPick();
-    const card = document.createElement('div');
-    card.classList.add('card');
+    if (!collection[char.name]) {
+      collection[char.name] = char;
+    }
 
-    const img = document.createElement('img');
+    const card = document.createElement("div");
+    card.classList.add("card", "animated");
+
+    const img = document.createElement("img");
     img.src = char.image;
     img.style.borderColor = char.color;
 
-    const name = document.createElement('h3');
+    const name = document.createElement("h3");
     name.textContent = char.name;
     name.style.color = char.color;
 
-    const rarity = document.createElement('p');
+    const rarity = document.createElement("p");
     rarity.textContent = `Rarity: ${char.rarity}`;
     rarity.style.color = char.color;
 
@@ -354,7 +159,11 @@ function pullCharacters(amount = 1) {
     card.appendChild(rarity);
     container.appendChild(card);
   }
+
+  updateGallery();
 }
 
-document.getElementById('pullOne').addEventListener('click', () => pullCharacters(1));
-document.getElementById('pullTen').addEventListener('click', () => pullCharacters(10));
+document.getElementById("pullOne").addEventListener("click", () => pullCharacters(1));
+document.getElementById("pullTen").addEventListener("click", () => pullCharacters(10));
+updateGemsDisplay();
+updateGallery();
