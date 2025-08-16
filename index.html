@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Standalone Gacha Game</title>
+  <title>Gacha Game Enhanced v2</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎲 Mini Gacha Pull</h1>
-  <button id="pullBtn">Pull Character</button>
+  <h1>🎲 Fantasy Gacha Pull</h1>
+  <button id="pullOne">Single Pull</button>
+  <button id="pullTen">10x Pull</button>
 
-  <div id="result">
-    <img id="charImg" src="" alt="Character" />
-    <h2 id="charName"></h2>
-    <p id="charRarity"></p>
-  </div>
+  <div id="result" class="pulls"></div>
+
+  <audio id="sfx" src="assets/sound/pull.mp3" preload="auto"></audio>
 
   <script src="script.js"></script>
 </body>
