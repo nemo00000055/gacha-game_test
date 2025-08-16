@@ -12,12 +12,15 @@
     <a href="index.html"><img src="assets/ui/summon.png" alt="Home" title="Home" /></a>
     <a href="summon.html"><img src="assets/ui/summon.png" alt="Summon" title="Summon" /></a>
   </div>
-  <script>
-    const collection = JSON.parse(localStorage.getItem("collection") || "{}");
-    const gallery = document.getElementById("gallery");
-    Object.values(collection).slice(0, 50).forEach((char) => {
-      const item = document.createElement("div");
-      item.classList.add("card");
+    <script>
+      let collection = JSON.parse(localStorage.getItem("collection") || "[]");
+      if (!Array.isArray(collection)) {
+        collection = Object.values(collection);
+      }
+      const gallery = document.getElementById("gallery");
+      collection.slice(0, 50).forEach((char) => {
+        const item = document.createElement("div");
+        item.classList.add("card");
 
       const img = document.createElement("img");
       img.src = char.image;
