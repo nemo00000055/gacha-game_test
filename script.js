@@ -24,43 +24,6 @@ function pullCharacters(count) {
   return results;
 }
 
-function displayResults(results) {
-  const container = document.getElementById("result");
-  container.innerHTML = "";
-  const audio = document.getElementById("sfx");
-  audio.currentTime = 0;
-  audio.play();
-
-  const collection = JSON.parse(localStorage.getItem("collection") || "{}");
-
-  results.forEach(char => {
-    const card = document.createElement("div");
-    card.classList.add("card");
-
-    const img = document.createElement("img");
-    img.src = char.image;
-    img.style.borderColor = char.color;
-
-    const name = document.createElement("h3");
-    name.textContent = char.name;
-    name.style.color = char.color;
-
-    const rarity = document.createElement("p");
-    rarity.textContent = `Rarity: ${char.rarity}`;
-    rarity.style.color = char.color;
-
-    card.appendChild(img);
-    card.appendChild(name);
-    card.appendChild(rarity);
-    container.appendChild(card);
-
-    collection[char.name] = char;
-  });
-
-  localStorage.setItem("collection", JSON.stringify(collection));
-}
-
-
 let gems = parseInt(localStorage.getItem("gems") || "100000");
 const gemsElem = document.getElementById("gems");
 gemsElem.textContent = `💎 Gems: ${gems}`;
@@ -95,7 +58,7 @@ function displayResults(results) {
   audio.currentTime = 0;
   audio.play();
 
-  const collection = JSON.parse(localStorage.getItem("collection") || "{}");
+  const collection = JSON.parse(localStorage.getItem("collection") || "[]");
 
   results.forEach(char => {
     const card = document.createElement("div");
@@ -132,8 +95,7 @@ function displayResults(results) {
       card.style.opacity = 1;
     }, 100);
 
-    collection[char.name] = char;
+    collection.push(char);
   });
-
   localStorage.setItem("collection", JSON.stringify(collection));
 }
