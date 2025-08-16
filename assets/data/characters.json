@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "name": "Vaelwyn",
+    "rarity": "Rare",
+    "class": "Ranger",
+    "lore": "Vaelwyn is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 264,
+      "atk": 249,
+      "def": 214,
+      "spd": 230
+    },
+    "image": "vaelwyn.png"
+  },
+  {
+    "id": 2,
+    "name": "Dregor",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Dregor is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 214,
+      "atk": 157,
+      "def": 182,
+      "spd": 186
+    },
+    "image": "dregor.png"
+  },
+  {
+    "id": 3,
+    "name": "Myrren",
+    "rarity": "Common",
+    "class": "Assassin",
+    "lore": "Myrren is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 229,
+      "atk": 209,
+      "def": 120,
+      "spd": 140
+    },
+    "image": "myrren.png"
+  },
+  {
+    "id": 4,
+    "name": "Skarn",
+    "rarity": "Rare",
+    "class": "Warrior",
+    "lore": "Skarn is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 276,
+      "atk": 276,
+      "def": 270,
+      "spd": 215
+    },
+    "image": "skarn.png"
+  },
+  {
+    "id": 5,
+    "name": "Thalor",
+    "rarity": "Common",
+    "class": "Ranger",
+    "lore": "Thalor is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 248,
+      "atk": 227,
+      "def": 153,
+      "spd": 144
+    },
+    "image": "thalor.png"
+  },
+  {
+    "id": 6,
+    "name": "Nyris",
+    "rarity": "Rare",
+    "class": "Ranger",
+    "lore": "Nyris is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 290,
+      "atk": 253,
+      "def": 269,
+      "spd": 227
+    },
+    "image": "nyris.png"
+  },
+  {
+    "id": 7,
+    "name": "Kaelgrin",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Kaelgrin is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 238,
+      "atk": 213,
+      "def": 143,
+      "spd": 180
+    },
+    "image": "kaelgrin.png"
+  },
+  {
+    "id": 8,
+    "name": "Sylthara",
+    "rarity": "Rare",
+    "class": "Mage",
+    "lore": "Sylthara is a mage of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 252,
+      "atk": 278,
+      "def": 174,
+      "spd": 243
+    },
+    "image": "sylthara.png"
+  },
+  {
+    "id": 9,
+    "name": "Orvax",
+    "rarity": "Epic",
+    "class": "Assassin",
+    "lore": "Orvax is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 329,
+      "atk": 317,
+      "def": 239,
+      "spd": 208
+    },
+    "image": "orvax.png"
+  },
+  {
+    "id": 10,
+    "name": "Zephiron",
+    "rarity": "Rare",
+    "class": "Warrior",
+    "lore": "Zephiron is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 286,
+      "atk": 217,
+      "def": 245,
+      "spd": 249
+    },
+    "image": "zephiron.png"
+  },
+  {
+    "id": 11,
+    "name": "Ralgar",
+    "rarity": "Common",
+    "class": "Sorcerer",
+    "lore": "Ralgar is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 201,
+      "atk": 184,
+      "def": 190,
+      "spd": 114
+    },
+    "image": "ralgar.png"
+  },
+  {
+    "id": 12,
+    "name": "Elyria",
+    "rarity": "Epic",
+    "class": "Deathknight",
+    "lore": "Elyria is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 309,
+      "atk": 291,
+      "def": 245,
+      "spd": 271
+    },
+    "image": "elyria.png"
+  },
+  {
+    "id": 13,
+    "name": "Thorne",
+    "rarity": "Common",
+    "class": "Warrior",
+    "lore": "Thorne is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 237,
+      "atk": 196,
+      "def": 172,
+      "spd": 166
+    },
+    "image": "thorne.png"
+  },
+  {
+    "id": 14,
+    "name": "Zeraphine",
+    "rarity": "Epic",
+    "class": "Ranger",
+    "lore": "Zeraphine is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 316,
+      "atk": 269,
+      "def": 295,
+      "spd": 297
+    },
+    "image": "zeraphine.png"
+  },
+  {
+    "id": 15,
+    "name": "Garruk",
+    "rarity": "Common",
+    "class": "Paladin",
+    "lore": "Garruk is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 241,
+      "atk": 189,
+      "def": 183,
+      "spd": 170
+    },
+    "image": "garruk.png"
+  },
+  {
+    "id": 16,
+    "name": "Liora",
+    "rarity": "Epic",
+    "class": "Warrior",
+    "lore": "Liora is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 324,
+      "atk": 258,
+      "def": 276,
+      "spd": 290
+    },
+    "image": "liora.png"
+  },
+  {
+    "id": 17,
+    "name": "Fenrik",
+    "rarity": "Epic",
+    "class": "Ranger",
+    "lore": "Fenrik is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 332,
+      "atk": 316,
+      "def": 306,
+      "spd": 242
+    },
+    "image": "fenrik.png"
+  },
+  {
+    "id": 18,
+    "name": "Quorra",
+    "rarity": "Epic",
+    "class": "Deathknight",
+    "lore": "Quorra is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 325,
+      "atk": 292,
+      "def": 287,
+      "spd": 200
+    },
+    "image": "quorra.png"
+  },
+  {
+    "id": 19,
+    "name": "Azrak",
+    "rarity": "Common",
+    "class": "Sorcerer",
+    "lore": "Azrak is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 224,
+      "atk": 172,
+      "def": 174,
+      "spd": 114
+    },
+    "image": "azrak.png"
+  },
+  {
+    "id": 20,
+    "name": "Nyx",
+    "rarity": "Epic",
+    "class": "Deathknight",
+    "lore": "Nyx is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 302,
+      "atk": 302,
+      "def": 316,
+      "spd": 206
+    },
+    "image": "nyx.png"
+  },
+  {
+    "id": 21,
+    "name": "Bellathor",
+    "rarity": "Common",
+    "class": "Deathknight",
+    "lore": "Bellathor is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 230,
+      "atk": 212,
+      "def": 164,
+      "spd": 115
+    },
+    "image": "bellathor.png"
+  },
+  {
+    "id": 22,
+    "name": "Cyntra",
+    "rarity": "Legendary",
+    "class": "Ranger",
+    "lore": "Cyntra is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 375,
+      "atk": 302,
+      "def": 331,
+      "spd": 269
+    },
+    "image": "cyntra.png"
+  },
+  {
+    "id": 23,
+    "name": "Malric",
+    "rarity": "Rare",
+    "class": "Cleric",
+    "lore": "Malric is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 297,
+      "atk": 211,
+      "def": 252,
+      "spd": 185
+    },
+    "image": "malric.png"
+  },
+  {
+    "id": 24,
+    "name": "Vexen",
+    "rarity": "Epic",
+    "class": "Paladin",
+    "lore": "Vexen is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 336,
+      "atk": 262,
+      "def": 295,
+      "spd": 295
+    },
+    "image": "vexen.png"
+  },
+  {
+    "id": 25,
+    "name": "Ithros",
+    "rarity": "Epic",
+    "class": "Sorcerer",
+    "lore": "Ithros is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 342,
+      "atk": 293,
+      "def": 222,
+      "spd": 267
+    },
+    "image": "ithros.png"
+  },
+  {
+    "id": 26,
+    "name": "Ysolde",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Ysolde is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 268,
+      "atk": 274,
+      "def": 197,
+      "spd": 245
+    },
+    "image": "ysolde.png"
+  },
+  {
+    "id": 27,
+    "name": "Draven",
+    "rarity": "Epic",
+    "class": "Warrior",
+    "lore": "Draven is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 319,
+      "atk": 298,
+      "def": 228,
+      "spd": 274
+    },
+    "image": "draven.png"
+  },
+  {
+    "id": 28,
+    "name": "Tamsin",
+    "rarity": "Rare",
+    "class": "Cleric",
+    "lore": "Tamsin is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 277,
+      "atk": 262,
+      "def": 170,
+      "spd": 188
+    },
+    "image": "tamsin.png"
+  },
+  {
+    "id": 29,
+    "name": "Kelvar",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Kelvar is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 214,
+      "atk": 180,
+      "def": 170,
+      "spd": 151
+    },
+    "image": "kelvar.png"
+  },
+  {
+    "id": 30,
+    "name": "Mirel",
+    "rarity": "Legendary",
+    "class": "Ranger",
+    "lore": "Mirel is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 357,
+      "atk": 306,
+      "def": 303,
+      "spd": 327
+    },
+    "image": "mirel.png"
+  },
+  {
+    "id": 31,
+    "name": "Virel",
+    "rarity": "Rare",
+    "class": "Sorcerer",
+    "lore": "Virel is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 277,
+      "atk": 274,
+      "def": 220,
+      "spd": 168
+    },
+    "image": "virel.png"
+  },
+  {
+    "id": 32,
+    "name": "Lazrak",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Lazrak is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 234,
+      "atk": 215,
+      "def": 163,
+      "spd": 180
+    },
+    "image": "lazrak.png"
+  },
+  {
+    "id": 33,
+    "name": "Orwyn",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Orwyn is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 238,
+      "atk": 204,
+      "def": 170,
+      "spd": 136
+    },
+    "image": "orwyn.png"
+  },
+  {
+    "id": 34,
+    "name": "Zendra",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Zendra is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 255,
+      "atk": 250,
+      "def": 244,
+      "spd": 235
+    },
+    "image": "zendra.png"
+  },
+  {
+    "id": 35,
+    "name": "Khazul",
+    "rarity": "Rare",
+    "class": "Berserker",
+    "lore": "Khazul is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 297,
+      "atk": 271,
+      "def": 192,
+      "spd": 237
+    },
+    "image": "khazul.png"
+  },
+  {
+    "id": 36,
+    "name": "Ophelin",
+    "rarity": "Common",
+    "class": "Assassin",
+    "lore": "Ophelin is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 226,
+      "atk": 193,
+      "def": 125,
+      "spd": 133
+    },
+    "image": "ophelin.png"
+  },
+  {
+    "id": 37,
+    "name": "Thoros",
+    "rarity": "Rare",
+    "class": "Berserker",
+    "lore": "Thoros is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 252,
+      "atk": 215,
+      "def": 243,
+      "spd": 244
+    },
+    "image": "thoros.png"
+  },
+  {
+    "id": 38,
+    "name": "Arathor",
+    "rarity": "Rare",
+    "class": "Warrior",
+    "lore": "Arathor is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 259,
+      "atk": 280,
+      "def": 232,
+      "spd": 215
+    },
+    "image": "arathor.png"
+  },
+  {
+    "id": 39,
+    "name": "Seris",
+    "rarity": "Mythic",
+    "class": "Sorcerer",
+    "lore": "Seris is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 410,
+      "atk": 386,
+      "def": 369,
+      "spd": 364
+    },
+    "image": "seris.png"
+  },
+  {
+    "id": 40,
+    "name": "Nerok",
+    "rarity": "Rare",
+    "class": "Mage",
+    "lore": "Nerok is a mage of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 280,
+      "atk": 218,
+      "def": 191,
+      "spd": 233
+    },
+    "image": "nerok.png"
+  },
+  {
+    "id": 41,
+    "name": "Feyna",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Feyna is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 216,
+      "atk": 187,
+      "def": 186,
+      "spd": 154
+    },
+    "image": "feyna.png"
+  },
+  {
+    "id": 42,
+    "name": "Talandra",
+    "rarity": "Epic",
+    "class": "Berserker",
+    "lore": "Talandra is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 312,
+      "atk": 326,
+      "def": 302,
+      "spd": 223
+    },
+    "image": "talandra.png"
+  },
+  {
+    "id": 43,
+    "name": "Xerion",
+    "rarity": "Common",
+    "class": "Deathknight",
+    "lore": "Xerion is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 245,
+      "atk": 158,
+      "def": 150,
+      "spd": 198
+    },
+    "image": "xerion.png"
+  },
+  {
+    "id": 44,
+    "name": "Mourn",
+    "rarity": "Rare",
+    "class": "Paladin",
+    "lore": "Mourn is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 285,
+      "atk": 248,
+      "def": 256,
+      "spd": 231
+    },
+    "image": "mourn.png"
+  },
+  {
+    "id": 45,
+    "name": "Aelric",
+    "rarity": "Common",
+    "class": "Paladin",
+    "lore": "Aelric is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 211,
+      "atk": 226,
+      "def": 184,
+      "spd": 140
+    },
+    "image": "aelric.png"
+  },
+  {
+    "id": 46,
+    "name": "Kyria",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Kyria is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 235,
+      "atk": 219,
+      "def": 186,
+      "spd": 179
+    },
+    "image": "kyria.png"
+  },
+  {
+    "id": 47,
+    "name": "Gorefang",
+    "rarity": "Mythic",
+    "class": "Deathknight",
+    "lore": "Gorefang is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 438,
+      "atk": 395,
+      "def": 409,
+      "spd": 372
+    },
+    "image": "gorefang.png"
+  },
+  {
+    "id": 48,
+    "name": "Isolde",
+    "rarity": "Common",
+    "class": "Ranger",
+    "lore": "Isolde is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 200,
+      "atk": 196,
+      "def": 128,
+      "spd": 193
+    },
+    "image": "isolde.png"
+  },
+  {
+    "id": 49,
+    "name": "Dethmar",
+    "rarity": "Rare",
+    "class": "Ranger",
+    "lore": "Dethmar is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 287,
+      "atk": 254,
+      "def": 263,
+      "spd": 162
+    },
+    "image": "dethmar.png"
+  },
+  {
+    "id": 50,
+    "name": "Orrik",
+    "rarity": "Common",
+    "class": "Assassin",
+    "lore": "Orrik is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 228,
+      "atk": 182,
+      "def": 161,
+      "spd": 161
+    },
+    "image": "orrik.png"
+  },
+  {
+    "id": 51,
+    "name": "Brin",
+    "rarity": "Legendary",
+    "class": "Ranger",
+    "lore": "Brin is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 394,
+      "atk": 368,
+      "def": 348,
+      "spd": 267
+    },
+    "image": "brin.png"
+  },
+  {
+    "id": 52,
+    "name": "Velion",
+    "rarity": "Epic",
+    "class": "Sorcerer",
+    "lore": "Velion is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 330,
+      "atk": 317,
+      "def": 222,
+      "spd": 288
+    },
+    "image": "velion.png"
+  },
+  {
+    "id": 53,
+    "name": "Rylia",
+    "rarity": "Epic",
+    "class": "Assassin",
+    "lore": "Rylia is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 336,
+      "atk": 294,
+      "def": 274,
+      "spd": 229
+    },
+    "image": "rylia.png"
+  },
+  {
+    "id": 54,
+    "name": "Korwyn",
+    "rarity": "Rare",
+    "class": "Ranger",
+    "lore": "Korwyn is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 262,
+      "atk": 280,
+      "def": 238,
+      "spd": 218
+    },
+    "image": "korwyn.png"
+  },
+  {
+    "id": 55,
+    "name": "Velnor",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Velnor is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 252,
+      "atk": 266,
+      "def": 183,
+      "spd": 173
+    },
+    "image": "velnor.png"
+  },
+  {
+    "id": 56,
+    "name": "Karnok",
+    "rarity": "Rare",
+    "class": "Sorcerer",
+    "lore": "Karnok is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 250,
+      "atk": 226,
+      "def": 254,
+      "spd": 197
+    },
+    "image": "karnok.png"
+  },
+  {
+    "id": 57,
+    "name": "Sindra",
+    "rarity": "Common",
+    "class": "Warrior",
+    "lore": "Sindra is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 243,
+      "atk": 170,
+      "def": 193,
+      "spd": 180
+    },
+    "image": "sindra.png"
+  },
+  {
+    "id": 58,
+    "name": "Drovos",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Drovos is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 230,
+      "atk": 179,
+      "def": 138,
+      "spd": 166
+    },
+    "image": "drovos.png"
+  },
+  {
+    "id": 59,
+    "name": "Elan",
+    "rarity": "Epic",
+    "class": "Paladin",
+    "lore": "Elan is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 346,
+      "atk": 317,
+      "def": 284,
+      "spd": 269
+    },
+    "image": "elan.png"
+  },
+  {
+    "id": 60,
+    "name": "Mortha",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Mortha is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 231,
+      "atk": 174,
+      "def": 219,
+      "spd": 111
+    },
+    "image": "mortha.png"
+  },
+  {
+    "id": 61,
+    "name": "Pyrric",
+    "rarity": "Legendary",
+    "class": "Deathknight",
+    "lore": "Pyrric is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 375,
+      "atk": 372,
+      "def": 287,
+      "spd": 326
+    },
+    "image": "pyrric.png"
+  },
+  {
+    "id": 62,
+    "name": "Kaela",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Kaela is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 270,
+      "atk": 271,
+      "def": 217,
+      "spd": 221
+    },
+    "image": "kaela.png"
+  },
+  {
+    "id": 63,
+    "name": "Thornak",
+    "rarity": "Epic",
+    "class": "Ranger",
+    "lore": "Thornak is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 302,
+      "atk": 294,
+      "def": 256,
+      "spd": 242
+    },
+    "image": "thornak.png"
+  },
+  {
+    "id": 64,
+    "name": "Zevara",
+    "rarity": "Common",
+    "class": "Sorcerer",
+    "lore": "Zevara is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 226,
+      "atk": 210,
+      "def": 181,
+      "spd": 183
+    },
+    "image": "zevara.png"
+  },
+  {
+    "id": 65,
+    "name": "Ulric",
+    "rarity": "Common",
+    "class": "Ranger",
+    "lore": "Ulric is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 210,
+      "atk": 209,
+      "def": 121,
+      "spd": 131
+    },
+    "image": "ulric.png"
+  },
+  {
+    "id": 66,
+    "name": "Grend",
+    "rarity": "Rare",
+    "class": "Mage",
+    "lore": "Grend is a mage of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 250,
+      "atk": 246,
+      "def": 196,
+      "spd": 216
+    },
+    "image": "grend.png"
+  },
+  {
+    "id": 67,
+    "name": "Valeris",
+    "rarity": "Legendary",
+    "class": "Paladin",
+    "lore": "Valeris is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 361,
+      "atk": 321,
+      "def": 310,
+      "spd": 320
+    },
+    "image": "valeris.png"
+  },
+  {
+    "id": 68,
+    "name": "Mirra",
+    "rarity": "Epic",
+    "class": "Deathknight",
+    "lore": "Mirra is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 312,
+      "atk": 293,
+      "def": 314,
+      "spd": 213
+    },
+    "image": "mirra.png"
+  },
+  {
+    "id": 69,
+    "name": "Solan",
+    "rarity": "Common",
+    "class": "Assassin",
+    "lore": "Solan is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 203,
+      "atk": 153,
+      "def": 163,
+      "spd": 147
+    },
+    "image": "solan.png"
+  },
+  {
+    "id": 70,
+    "name": "Dralis",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Dralis is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 243,
+      "atk": 220,
+      "def": 203,
+      "spd": 132
+    },
+    "image": "dralis.png"
+  },
+  {
+    "id": 71,
+    "name": "Zyrak",
+    "rarity": "Mythic",
+    "class": "Ranger",
+    "lore": "Zyrak is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 409,
+      "atk": 391,
+      "def": 359,
+      "spd": 328
+    },
+    "image": "zyrak.png"
+  },
+  {
+    "id": 72,
+    "name": "Falon",
+    "rarity": "Epic",
+    "class": "Sorcerer",
+    "lore": "Falon is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 313,
+      "atk": 291,
+      "def": 269,
+      "spd": 228
+    },
+    "image": "falon.png"
+  },
+  {
+    "id": 73,
+    "name": "Vestra",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Vestra is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 255,
+      "atk": 268,
+      "def": 245,
+      "spd": 218
+    },
+    "image": "vestra.png"
+  },
+  {
+    "id": 74,
+    "name": "Halden",
+    "rarity": "Common",
+    "class": "Deathknight",
+    "lore": "Halden is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 249,
+      "atk": 165,
+      "def": 164,
+      "spd": 177
+    },
+    "image": "halden.png"
+  },
+  {
+    "id": 75,
+    "name": "Ygraine",
+    "rarity": "Common",
+    "class": "Warrior",
+    "lore": "Ygraine is a warrior of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 224,
+      "atk": 153,
+      "def": 198,
+      "spd": 198
+    },
+    "image": "ygraine.png"
+  },
+  {
+    "id": 76,
+    "name": "Nemor",
+    "rarity": "Common",
+    "class": "Mage",
+    "lore": "Nemor is a mage of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 223,
+      "atk": 185,
+      "def": 163,
+      "spd": 128
+    },
+    "image": "nemor.png"
+  },
+  {
+    "id": 77,
+    "name": "Tryss",
+    "rarity": "Rare",
+    "class": "Cleric",
+    "lore": "Tryss is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 293,
+      "atk": 208,
+      "def": 270,
+      "spd": 238
+    },
+    "image": "tryss.png"
+  },
+  {
+    "id": 78,
+    "name": "Eiran",
+    "rarity": "Common",
+    "class": "Deathknight",
+    "lore": "Eiran is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 238,
+      "atk": 183,
+      "def": 124,
+      "spd": 197
+    },
+    "image": "eiran.png"
+  },
+  {
+    "id": 79,
+    "name": "Galeth",
+    "rarity": "Epic",
+    "class": "Assassin",
+    "lore": "Galeth is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 347,
+      "atk": 252,
+      "def": 259,
+      "spd": 222
+    },
+    "image": "galeth.png"
+  },
+  {
+    "id": 80,
+    "name": "Laziel",
+    "rarity": "Rare",
+    "class": "Ranger",
+    "lore": "Laziel is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 289,
+      "atk": 251,
+      "def": 181,
+      "spd": 248
+    },
+    "image": "laziel.png"
+  },
+  {
+    "id": 81,
+    "name": "Ragna",
+    "rarity": "Common",
+    "class": "Deathknight",
+    "lore": "Ragna is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 231,
+      "atk": 176,
+      "def": 189,
+      "spd": 189
+    },
+    "image": "ragna.png"
+  },
+  {
+    "id": 82,
+    "name": "Sareth",
+    "rarity": "Common",
+    "class": "Paladin",
+    "lore": "Sareth is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 220,
+      "atk": 190,
+      "def": 172,
+      "spd": 108
+    },
+    "image": "sareth.png"
+  },
+  {
+    "id": 83,
+    "name": "Drexil",
+    "rarity": "Epic",
+    "class": "Deathknight",
+    "lore": "Drexil is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 322,
+      "atk": 277,
+      "def": 233,
+      "spd": 270
+    },
+    "image": "drexil.png"
+  },
+  {
+    "id": 84,
+    "name": "Meliora",
+    "rarity": "Epic",
+    "class": "Paladin",
+    "lore": "Meliora is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 342,
+      "atk": 271,
+      "def": 248,
+      "spd": 239
+    },
+    "image": "meliora.png"
+  },
+  {
+    "id": 85,
+    "name": "Vorgrim",
+    "rarity": "Rare",
+    "class": "Assassin",
+    "lore": "Vorgrim is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 286,
+      "atk": 208,
+      "def": 171,
+      "spd": 234
+    },
+    "image": "vorgrim.png"
+  },
+  {
+    "id": 86,
+    "name": "Tirion",
+    "rarity": "Common",
+    "class": "Cleric",
+    "lore": "Tirion is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 249,
+      "atk": 178,
+      "def": 180,
+      "spd": 131
+    },
+    "image": "tirion.png"
+  },
+  {
+    "id": 87,
+    "name": "Zafira",
+    "rarity": "Common",
+    "class": "Assassin",
+    "lore": "Zafira is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 243,
+      "atk": 206,
+      "def": 153,
+      "spd": 197
+    },
+    "image": "zafira.png"
+  },
+  {
+    "id": 88,
+    "name": "Lorak",
+    "rarity": "Rare",
+    "class": "Cleric",
+    "lore": "Lorak is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 271,
+      "atk": 252,
+      "def": 229,
+      "spd": 159
+    },
+    "image": "lorak.png"
+  },
+  {
+    "id": 89,
+    "name": "Alira",
+    "rarity": "Rare",
+    "class": "Cleric",
+    "lore": "Alira is a cleric of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 266,
+      "atk": 250,
+      "def": 259,
+      "spd": 174
+    },
+    "image": "alira.png"
+  },
+  {
+    "id": 90,
+    "name": "Brask",
+    "rarity": "Legendary",
+    "class": "Berserker",
+    "lore": "Brask is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 397,
+      "atk": 303,
+      "def": 350,
+      "spd": 344
+    },
+    "image": "brask.png"
+  },
+  {
+    "id": 91,
+    "name": "Xalen",
+    "rarity": "Rare",
+    "class": "Sorcerer",
+    "lore": "Xalen is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 277,
+      "atk": 267,
+      "def": 181,
+      "spd": 239
+    },
+    "image": "xalen.png"
+  },
+  {
+    "id": 92,
+    "name": "Theren",
+    "rarity": "Rare",
+    "class": "Paladin",
+    "lore": "Theren is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 272,
+      "atk": 225,
+      "def": 247,
+      "spd": 196
+    },
+    "image": "theren.png"
+  },
+  {
+    "id": 93,
+    "name": "Kaelin",
+    "rarity": "Common",
+    "class": "Paladin",
+    "lore": "Kaelin is a paladin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 230,
+      "atk": 181,
+      "def": 213,
+      "spd": 155
+    },
+    "image": "kaelin.png"
+  },
+  {
+    "id": 94,
+    "name": "Sythra",
+    "rarity": "Legendary",
+    "class": "Deathknight",
+    "lore": "Sythra is a deathknight of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 373,
+      "atk": 306,
+      "def": 330,
+      "spd": 290
+    },
+    "image": "sythra.png"
+  },
+  {
+    "id": 95,
+    "name": "Torwyn",
+    "rarity": "Common",
+    "class": "Ranger",
+    "lore": "Torwyn is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 206,
+      "atk": 163,
+      "def": 219,
+      "spd": 181
+    },
+    "image": "torwyn.png"
+  },
+  {
+    "id": 96,
+    "name": "Gavik",
+    "rarity": "Rare",
+    "class": "Berserker",
+    "lore": "Gavik is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 295,
+      "atk": 269,
+      "def": 171,
+      "spd": 221
+    },
+    "image": "gavik.png"
+  },
+  {
+    "id": 97,
+    "name": "Iralis",
+    "rarity": "Common",
+    "class": "Sorcerer",
+    "lore": "Iralis is a sorcerer of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 237,
+      "atk": 164,
+      "def": 168,
+      "spd": 172
+    },
+    "image": "iralis.png"
+  },
+  {
+    "id": 98,
+    "name": "Zarn",
+    "rarity": "Common",
+    "class": "Berserker",
+    "lore": "Zarn is a berserker of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 232,
+      "atk": 214,
+      "def": 137,
+      "spd": 185
+    },
+    "image": "zarn.png"
+  },
+  {
+    "id": 99,
+    "name": "Ulvira",
+    "rarity": "Legendary",
+    "class": "Assassin",
+    "lore": "Ulvira is a assassin of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 373,
+      "atk": 305,
+      "def": 274,
+      "spd": 319
+    },
+    "image": "ulvira.png"
+  },
+  {
+    "id": 100,
+    "name": "Trivor",
+    "rarity": "Common",
+    "class": "Ranger",
+    "lore": "Trivor is a ranger of renown, whose deeds echo across the realms of Thesseus.",
+    "stats": {
+      "hp": 226,
+      "atk": 170,
+      "def": 206,
+      "spd": 131
+    },
+    "image": "trivor.png"
+  }
+]
