@@ -60,13 +60,19 @@ function displayResults(results) {
   localStorage.setItem("collection", JSON.stringify(collection));
 }
 
+
+let gems = parseInt(localStorage.getItem("gems") || "100000");
+const gemsElem = document.getElementById("gems");
+gemsElem.textContent = `💎 Gems: ${gems}`;
+
 document.getElementById("pullOne").addEventListener("click", () => {
   const gems = document.getElementById("gems");
   let current = parseInt(gems.textContent.replace(/\D/g, ""));
   if (current >= 100) {
     displayResults(pullCharacters(1));
     current -= 100;
-    gems.textContent = `💎 Gems: ${current}`;
+    gemsElem.textContent = `💎 Gems: ${current}`;
+  localStorage.setItem("gems", current);
   }
 });
 
@@ -76,7 +82,8 @@ document.getElementById("pullTen").addEventListener("click", () => {
   if (current >= 1000) {
     displayResults(pullCharacters(10));
     current -= 1000;
-    gems.textContent = `💎 Gems: ${current}`;
+    gemsElem.textContent = `💎 Gems: ${current}`;
+  localStorage.setItem("gems", current);
   }
 });
 
